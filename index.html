@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Epilogue:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/intro-section-dropdown.css" />
+    <title>Intro Section with Dropdown Navigation</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Header Start  -->
+      <div class="header-desktop">
+        <div class="snap-logo">
+          <img src="assets/img/snap-logo.svg" alt="Snap Logo" />
+        </div>
+
+        <ul class="nav">
+          <li>
+            <a href="#">Özellikler</a>
+            <!-- popup menu -->
+            <ul>
+              <li>
+                <img src="assets/img/todo-list-icon.svg" alt="Todo List Icon" />
+                <a href="#">Yapılacaklar Listesi</a>
+              </li>
+              <li>
+                <img src="assets/img/calendar-icon.svg" alt="Calendar Icon" />
+                <a href="#">Takvim</a>
+              </li>
+              <li>
+                <img src="assets/img/bell-icon.svg" alt="Bell Icon" />
+                <a href="#">Hatırlatmalar</a>
+              </li>
+              <li>
+                <img src="assets/img/clock-icon.svg" alt="Clock Icon" />
+                <a href="#">Planlama</a>
+              </li>
+            </ul>
+          </li>
+          <li>
+            <a href="#">Şirket</a>
+            <!-- popup menu -->
+            <ul>
+              <li><a href="#">Tarihçe</a></li>
+              <li><a href="#">Ekibimiz</a></li>
+              <li><a href="#">Blog</a></li>
+            </ul>
+          </li>
+          <li><a href="#">Kariyerler</a></li>
+          <li><a href="#">Hakkında</a></li>
+        </ul>
+
+        <div class="login-register">
+          <a href="#" class="btn btn-ghost">Giriş Yap</a>
+          <a href="#" class="btn">Kayıt Ol</a>
+        </div>
+      </div>
+
+      <div class="header-mobile">
+        <div class="snap-logo">
+          <img src="assets/img/snap-logo.svg" alt="Snap Logo" />
+        </div>
+        <input type="checkbox" class="menu-toggle-btn" id="menu-toggle" />
+        <label for="menu-toggle">
+          <img
+            src="assets/img/burger-icon.svg"
+            alt="Burger Menu"
+            class="burger-icon"
+          />
+          <img
+            src="assets/img/cancel-icon.svg"
+            alt="Cancel"
+            class="cancel-icon"
+          />
+        </label>
+        <div class="mobile-menu-overlay">
+          <div class="mobile-menu">
+            <ul>
+              <li>
+                <a href="#">Özellikler</a>
+                <!-- popup menu -->
+                <ul>
+                  <li>
+                    <img
+                      src="assets/img/todo-list-icon.svg"
+                      alt="Todo List Icon"
+                    />
+                    <a href="#">Yapılacaklar Listesi</a>
+                  </li>
+                  <li>
+                    <img
+                      src="assets/img/calendar-icon.svg"
+                      alt="Calendar Icon"
+                    />
+                    <a href="#">Takvim</a>
+                  </li>
+                  <li>
+                    <img src="assets/img/bell-icon.svg" alt="Bell Icon" />
+                    <a href="#">Hatırlatmalar</a>
+                  </li>
+                  <li>
+                    <img src="assets/img/clock-icon.svg" alt="Clock Icon" />
+                    <a href="#">Planlama</a>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <a href="#">Şirket</a>
+                <!-- popup menu -->
+                <ul>
+                  <li><a href="#">Tarihçe</a></li>
+                  <li><a href="#">Ekibimiz</a></li>
+                  <li><a href="#">Blog</a></li>
+                </ul>
+              </li>
+              <li><a href="#">Kariyerler</a></li>
+              <li><a href="#">Hakkında</a></li>
+            </ul>
+            <div class="login-register">
+              <a href="#" class="btn btn-ghost">Giriş Yap</a>
+              <a href="#" class="btn">Kayıt Ol</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Header End  -->
+      <div class="content">
+        <div class="mobil-snap-image">
+          <img src="assets/img/snap-head-foto.png" alt="Snap Head Photo" />
+        </div>
+        <div class="desktop-snap-image">
+          <img
+            src="assets/img/desktop-snap-head-img.png"
+            alt="Desktop Snap Head Photo"
+          />
+        </div>
+        <div class="content-sub">
+          <div class="content-text">
+            <h2>Uzaktan çalışmayı sağla</h2>
+            <p>
+              Ekiplerinizi, nerede olursanız olun uyum içinde tutun. Süreçleri
+              kolaylaştırın, ekip alışkanlıkları oluşturun ve verimliliğin
+              artışını izleyin.
+            </p>
+            <a href="#">Daha fazlasını öğren</a>
+          </div>
+
+          <div class="brand-area">
+            <div class="brand">
+              <img src="assets/img/databiz-icon.svg" alt="Databiz Icon" />
+              <img
+                src="assets/img/audio-phile-icon.svg"
+                alt="Audio Phile Icon"
+              />
+              <img src="assets/img/meet-icon.svg" alt="Meet Icon" />
+              <img src="assets/img/maker-icon.svg" alt="Maker Icon" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
